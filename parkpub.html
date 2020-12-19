@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Park Pub
+        </title>
+    </head>
+    <body>
+
+        <link rel="stylesheet" href="static/styles.css">
+
+        <div class="header">
+            <h1>Park Pub</h1>
+            <div class="topnav">
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#menu">Menu</a>
+                <a href="#top">Home</a>
+            </div>
+            <h2>Highland Park, NJ</h2>
+        </div>
+
+        <div class="main">
+            <div class="message">
+                <h1>Good News... We're Back!</h1>
+                <p>Check out our hours of operation by clicking below!</p>
+                <p>Additionally, view the sections below to learn more about the Park Pub.</p>
+                <a href="#hours">Hours of Operation</a>
+            </div>
+        </div>
+
+        <div class="menu" id="menu">
+            <div class="div-header">
+            </div>
+            <div class="circle-border"></div>
+            <div class="circle">
+                <img src="static/burger.png">
+            </div>
+            <span class="food">
+                <h1>From the Grill</h1>
+                <div class="line">
+                    <h3 class="item_name">Cheeseburger</h3>
+                    <span class="item_pic"><img src="static\burger1.png"></span>
+                    <span class="item_description">Park Pub's massive burgers! Toppings of your choice can include: Lettuce, Tomato, Onion</span>
+                    <span class="item_price">$6.50</span>
+                </div>
+                <div class="line">
+                    <h3 class="item_name">Cheesesteak</h3>
+                    <span class="item_pic"><img src="static\cheesesteak.png"></span>
+                    <span class="item_description">Delicious cheesesteak with options of onions, peppers and mushrooms.</span>
+                    <span class="item_price">$7.00</span>
+                </div>
+                <div class="line">
+                    <h3 class="item_name">Pork Roll</h3>
+                    <span class="item_pic"><img src="static\porkroll.png"></span>
+                    <span class="item_description">Fresh pork roll on your choice of bread. Choose your style of egg and toppings.</span>
+                    <span class="item_price">$5.00</span>
+                </div>
+                <div class="line">
+                    <h3 class="item_name">Fried Chicken Tenders</h3>
+                    <span class="item_pic"><img src="static\chicken.png"></span>
+                    <span class="item_description">Chicken tenders fried with your choice of house made honey mustard or ketchup.</span>
+                    <span class="item_price">$4.50</span>
+                </div>
+                <div class="line">
+                    <h3 class="item_name">French Fries</h3>
+                    <span class="item_pic"><img src="static\fries.png"></span>
+                    <span class="item_description">Delicious thick cut french fries straight from the fryer. Ketchup as requested.</span>
+                    <span class="item_price">$3.00</span>
+                </div>
+                <div class="line">
+                    <h3 class="item_name">Mozzarella Sticks</h3>
+                    <span class="item_pic"><img src="static\mozz.png"></span>
+                    <span class="item_description">Mozzarella sticks fried with marinara sauce for dipping. Other dips available.</span>
+                    <span class="item_price">$3.00</span>
+                </div>
+                <div class="line">
+                    <h3 class="item_name">Sandwiches</h3>
+                    <span class="item_pic"><img src="static\sandwich.png"></span>
+                    <span class="item_description">Wide variety of sandwiches made to your specification. Ask what toppings are available.</span>
+                    <span class="item_price">Varies</span>
+                </div>
+                <div class="line">
+                    <h3 class="item_name">Onion Rings</h3>
+                    <span class="item_pic"><img src="static\onion.png"></span>
+                    <span class="item_description">Crispy onion rings cooked to perfection. Try them with a variety of dipping sauces.</span>
+                    <span class="item_price">$4.00</span>
+                </div>
+
+            </span>
+            <span class="drink">
+                <h1>On Tap</h1>
+                <div class="line"></div>
+                <img src="static\budweiser.png">
+                <img src="static\miller.png">
+                <img src="static\yuengling.png">
+                <img src="static\shock.png">
+                <img src="static\victory.jpeg">
+                <img src="static\spaten.png">
+            </span>
+        </div>
+
+        <div class="gallery" id="gallery">
+            <div class="div-header">
+            </div>
+            <div class="circle-border"></div>
+            <div class="circle">
+                <img src="static\camera.png">
+            </div>
+            <button class="button-left" onclick="advance(-1)"></button>
+            <button class="button-right" onclick="advance(1)"></button>
+            <img class="slides" src="static\barpic1.png">
+            <img class="slides" src="static\barpic2.png">
+            <img class="slides" src="static\barpic3.png">
+            <script src="js\slides.js"></script>
+            <div class="gal-message">
+                <hr class="rounded">
+                <p>Take a look at some of the best food, drinks, and people the Park Pub has to offer!</p>
+                <p>Want to be featured in the gallery? Send in your favorite pictures from the Park Pub to:</p>
+                <p>highlandparkpub@gmail.com</p>
+                <img src="static\email.png">
+                <hr class="rounded">
+            </div>
+        </div>
+
+        <div class="hours" id="hours">
+            <div class="div-header">
+            </div>
+            <div class="circle-border"></div>
+            <div class="circle">
+                <img src="static\open.png">
+            </div>
+            <table class="hourstable">
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>12:00 PM - 12:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>12:00 PM - 12:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>12:00 PM - 12:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>12:00 PM - 12:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>3:00 PM - 2:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>3:00 PM - 2:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>3:00 PM - 12:00 AM</td>
+                </tr>
+            </table>
+        </div>
+        <div class="about" id="about">
+            <div class="div-header">
+            </div>
+            <div class="circle-border"></div>
+            <div class="circle">
+                <img src="static\question.png">
+            </div>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhiAFh2tetD18jtoCIkDRq9KemBjGBbNk&callback=initMap&libraries=&v=weekly"
+                    defer
+            ></script>
+            <script src="js\map.js"></script>
+            <div class="about-info">
+                <p>Address: 182 Woodbridge Ave, Highland Park NJ</p>
+                <p>Phone: 732-###-####</p>
+                <p>About: The Park Pub is a family owned and operated pub in Highland Park NJ, established in 1972.</p>
+            </div>
+            <div id="map"></div>
+        </div>
+
+    </body>
+</html>
